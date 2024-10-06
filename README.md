@@ -17,3 +17,15 @@ d.Fill(dt);
 GridView1.DataSource = dt;
 GridView1.DataBind();
 }
+
+
+
+{
+con.Open();
+SqlCommand comm
+new SqlCommand("select from Student Info Tab where Student 10-)
+SqlDataReader r = comm.ExecuteReader();
+while (r.Read()){
+TextBox2.Textr.getvalue(3).ToString();
+}
+}
